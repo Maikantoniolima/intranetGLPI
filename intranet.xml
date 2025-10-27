@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <name>Intranet</name>
+  <key>intranet</key>
+  <state>stable</state>
+
+  <!-- Logo local do plugin -->
+  <logo>/plugins/intranet/logointranet.png</logo>
+
+  <description>
+    <short>
+      <en>Complete intranet portal for GLPI with news, weather, reservations and quick links.</en>
+      <pt_BR>Portal de intranet para o GLPI com notícias, clima, reservas e acessos rápidos.</pt_BR>
+    </short>
+    <long>
+      <pt_BR>
+        Portal de intranet para GLPI que oferece:
+        - Dashboard com banner e botões configuráveis
+        - Notícias internas com categorias e banner
+        - Widget de clima (OpenWeather)
+        - Lista de aniversariantes (com captura do aniversário por GET)
+        - Calendário de reservas
+        - Interface responsiva
+      </pt_BR>
+    </long>
+  </description>
+
+  <homepage>https://github.com/Maikantoniolima/intranetglpi</homepage>
+  <download>https://github.com/Maikantoniolima/intranetglpi/releases</download>
+
+  <authors>
+    <author>Maik Lima</author>
+  </authors>
+
+  <versions>
+    <version>
+      <num>1.0.3</num>
+      <compatibility>
+        <min>10.0.0</min>
+        <max>10.0.20</max>
+      </compatibility>
+    </version>
+  </versions>
+
+  <langs>
+    <lang>pt_BR</lang>
+    <lang>en_GB</lang>
+  </langs>
+
+  <!-- Árvore de arquivos (informativa) -->
+  <tree><![CDATA[
+plugins/intranet/
+├── assets/
+│   ├── ckeditor/
+│   ├── js/
+│   ├── lib/
+│   └── intranet.css
+├── banner/
+├── front/
+│   ├── config.php
+│   ├── dashboard.php
+│   ├── error_log
+│   ├── news.form.php
+│   ├── news.php
+│   ├── news.view.php
+│   └── news_manager.php
+├── inc/
+│   ├── config.class.php
+│   ├── dashboard.class.php
+│   ├── manager.class.php
+│   ├── menu.class.php
+│   └── news.class.php
+├── locales/
+├── sql/
+│   └── mysql/
+│       └── update-1.0.0.sql
+├── src/
+├── uploads/
+├── hook.php
+├── intranet.xml
+├── logointranet.png
+└── setup.php
+  ]]></tree>
+</root>
