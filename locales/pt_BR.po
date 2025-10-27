@@ -1,0 +1,18 @@
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Intranet"
+msgstr "Intranet"
+
+msgid "Bem-vindo à Intranet"
+msgstr "Bem-vindo à Intranet"
+
+msgid "Esta é a página inicial do plugin de Intranet."
+msgstr "Esta é a página inicial do plugin de Intranet."
+
+msgid "Versão simplificada da Intranet"
+msgstr "Versão simplificada da Intranet"
