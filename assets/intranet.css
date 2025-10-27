@@ -1,0 +1,273 @@
+.intranet .intranet-grid {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.intranet .intra-left {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intranet .intra-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intranet .box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intranet .box h3,
+.intranet .box h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #0b2a5a;
+}
+
+.intranet .banner {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.intranet .welcome h2 {
+    margin: 0 0 10px 0;
+    color: #0b2a5a;
+    font-size: 24px;
+}
+
+.intranet .welcome p {
+    margin: 5px 0;
+    color: #374151;
+}
+
+.intranet .btns {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.intranet .btn {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 6px;
+    background: #0b2a5a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.intranet .btn:hover {
+    background: #0a1f42;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.intranet .btn.secondary {
+    background: #eef2f7;
+    color: #0b2a5a;
+}
+
+.intranet .btn.secondary:hover {
+    background: #dce3eb;
+}
+
+.intranet .news-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.intranet .news-item {
+    border-left: 4px solid #ffb300;
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.intranet .news-title {
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #0b2a5a;
+    font-size: 15px;
+}
+
+.intranet .news-date {
+    font-size: 12px;
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+
+.intranet .news-resume {
+    font-size: 13px;
+    color: #374151;
+    line-height: 1.5;
+}
+
+.intranet .news-empty {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #9ca3af;
+    font-style: italic;
+    padding: 20px;
+}
+
+.intranet .news-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.intranet .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.intranet .list li {
+    display: flex;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f2f5;
+    font-size: 14px;
+}
+
+.intranet .list li:last-child {
+    border-bottom: none;
+}
+
+.intranet .list .date {
+    min-width: 80px;
+    color: #0b2a5a;
+    font-weight: 600;
+}
+
+.intranet .weather {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.intranet .weather .sun {
+    font-size: 40px;
+}
+
+.intranet .weather .t {
+    font-weight: 800;
+    font-size: 32px;
+    color: #0b2a5a;
+}
+
+.intranet .small {
+    color: #6b7280;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Tabela de calendário (somente dentro do plugin) */
+.intranet .tab_cadre {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.intranet .tab_cadre th,
+.intranet .tab_cadre td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #e5e7eb;
+    font-size: 13px;
+}
+
+.intranet .tab_cadre th {
+    background: #f3f4f6;
+    font-weight: 600;
+    color: #374151;
+}
+
+.intranet .tab_cadre td {
+    background: #fff;
+}
+
+/* Formulários (somente dentro do plugin) */
+.intranet .tab_cadre_fixe {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.intranet .tab_cadre_fixe th {
+    background: #0b2a5a;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.intranet .tab_cadre_fixe td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.intranet .tab_cadre_fixe input[type="text"],
+.intranet .tab_cadre_fixe input[type="datetime-local"],
+.intranet .tab_cadre_fixe textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.intranet .tab_cadre_fixe textarea {
+    font-family: inherit;
+    resize: vertical;
+}
+
+.intranet .vsubmit {
+    background: #0b2a5a;
+    color: #fff;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.intranet .vsubmit:hover {
+    background: #0a1f42;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .intranet .intranet-grid {
+        flex-direction: column;
+    }
+
+    .intranet .news-cards {
+        grid-template-columns: 1fr;
+    }
+}
